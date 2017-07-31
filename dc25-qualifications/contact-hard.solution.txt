@@ -1,0 +1,9 @@
+IM OUT OF TIME!
+
+I figured out the solution (one of the columns has the letters, where 1=space,
+2=A, 3=B, etc), two of the columns loop from 1 to 26 over and over, and the last
+column contains junk data, and we can tell it's junk because it goes higher
+than 27.
+
+But, there's a bug in my logic that tries to decide which column is good, and I'm
+out of time.
